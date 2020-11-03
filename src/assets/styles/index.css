@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.eg-slide {
+  @apply .h-screen;
+  @apply .p-16;
+}
+
+.eg-slide-content {
+  @apply .h-full
+}
+
+.eg-code-block {
+  max-width: 100%;
+}
+
+.h-max-content {
+  height: max-content;
+}
+
+.w-max-content {
+  width: max-content;
+}

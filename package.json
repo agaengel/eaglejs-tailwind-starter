@@ -1,0 +1,54 @@
+{
+  "name": "eaglejs-starter",
+  "version": "0.1.0",
+  "description": "Starter presentation with Eagle.js",
+  "author": "agaengel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agaengel/eaglejs-tailwind-starter"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "validate_prod": "npm run build; http-server dist"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "chart.js": "2.9.4",
+    "eagle.js": "git+https://github.com/agaengel/eagle.js.git#dist",
+    "highlight.js": "^10.2.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.7"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-eslint": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "eslint-plugin-vue": "^7.1.0",
+    "http-server": "^0.12.3",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.1.2",
+    "sass-loader": "^10.0.5",
+    "tailwindcss": "^1.9.5",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
